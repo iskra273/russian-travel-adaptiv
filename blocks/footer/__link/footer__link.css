@@ -1,0 +1,19 @@
+.footer__link {
+  margin: 0 auto;
+  text-decoration: none;
+  color: #f2f2f2;
+  opacity: 1;
+}
+
+.footer__link:nth-of-type(2n) {
+	padding-left: 18px;
+}
+.footer__link:nth-of-type(3n) {
+	padding-left: 18px;
+}
+.footer__link:nth-of-type(4n) {
+	padding-left: 18px;
+}
+.footer__link:nth-of-type(5n) {
+	padding-left: 18px;
+}

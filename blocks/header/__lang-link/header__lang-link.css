@@ -1,0 +1,12 @@
+.header__lang-link {
+    width: 30px;
+    height: 28px;
+    color: #f2f2f2;
+    position: absolute; 
+    margin: 0 auto;
+    padding: 0;
+    text-align: right;
+    list-style-type: none;  
+    right: 0;
+    padding-right: 48px;
+}
