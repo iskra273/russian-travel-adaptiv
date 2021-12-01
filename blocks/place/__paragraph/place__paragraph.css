@@ -1,21 +1,21 @@
 .place__paragraph {
-    width: 484px;
-    height: 145px;
-    
-    font-family: 'Inter';
+    max-width: 484px;
+    margin: 0 auto;
+    padding: 0;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-    
-    flex-direction: column;
-    margin: 0 auto;
-    padding-left: 40px;
-    
-    
+    text-align: left;
 }
 
 .place__paragraph:nth-of-type(2n) {
-	padding-top: 26px;
-    
+	padding-top: 26px;  
+}
+
+@media screen and (max-width: 540px) {
+	.place__paragraph {
+        width: 100%;
+        font-size: 16px;
+	}
 }

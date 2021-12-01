@@ -1,8 +1,21 @@
 .intro {
-    width: 690px;
-    height: 429px;
-    position: absolute;
+    max-width: 984px;
     margin: 0 auto;
-    margin-top: 1233px;
-    padding-left: 148px;  
+    margin-bottom: 92px;
+    padding-left: 148px;
+    padding-right: 442px;  
+}
+
+@media screen and (max-width: 960px) {
+	.intro {
+        width: 100%;
+        padding: 0;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.intro {
+        width: 100%;
+        padding: 0;   
+	}
 }

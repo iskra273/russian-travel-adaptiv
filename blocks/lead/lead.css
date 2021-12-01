@@ -1,9 +1,23 @@
 .lead {
-    width: 928px;
-    height: 52px;
+    max-width: 984px;
     margin: 0 auto;
-    margin-top: 92px;
-    margin-left: 148px;
-    margin-right: 148px;
-    position: relative;
+    padding-bottom: 92px;
+    padding-left: 148px;
+    padding-right: 148px;
+}
+
+@media screen and (max-width: 960px) {
+	.lead {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 92px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.lead {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 92px;
+	}
 }
