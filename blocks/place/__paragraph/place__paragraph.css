@@ -22,11 +22,10 @@
 
 @media screen and (max-width: 960px) {
 	.place__paragraph {
-        max-width: 352px; 
+        max-width: 352px;
         font-size: 16px;
 	}
 }
-
 
 @media screen and (max-width: 540px) {
 	.place__paragraph {

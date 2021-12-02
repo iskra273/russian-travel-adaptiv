@@ -4,11 +4,12 @@
     margin: 0 auto;
     padding: 0;
     padding-bottom: 64px;
+    padding-left: 320px;
+    padding-right: 320px;
     font-style: normal;
     font-weight: normal;
     line-height: 36px;
     font-size: 30px;
-    font-weight: 900;
     text-align: center;
 }
 
