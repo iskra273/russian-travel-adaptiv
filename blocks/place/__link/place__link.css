@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     color: #f2f2f2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 @media screen and (max-width: 540px) {
 	.place__link {
-        width: 100%;
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 32px;
+       
 	}
 }

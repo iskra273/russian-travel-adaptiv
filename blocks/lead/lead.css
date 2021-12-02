@@ -1,9 +1,10 @@
 .lead {
     max-width: 984px;
     margin: 0 auto;
+    padding: 0;
     padding-bottom: 92px;
-    padding-left: 148px;
-    padding-right: 148px;
+    text-align: center;
+    
 }
 
 @media screen and (max-width: 960px) {

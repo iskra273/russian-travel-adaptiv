@@ -1,6 +1,16 @@
 .place__website {
+    max-width: 456px;
     margin: 0;
     padding: 0;
     align-self: end;
     text-align: left;
+}
+
+
+
+@media screen and (max-width: 540px) {
+	.place__website {
+        padding-right: 16px;
+        padding-left: 16px;
+	}
 }
