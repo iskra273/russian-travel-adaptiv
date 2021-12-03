@@ -13,3 +13,25 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1120px) {
+    .lead__subtitle {
+        padding-left: 192px;
+        padding-right: 192px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lead__subtitle {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .lead__subtitle {
+       padding-left: 16px;
+       padding-right: 16px;
+       font-size: 16px;
+       line-height: 20px;
+    }
+}
