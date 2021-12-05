@@ -1,6 +1,7 @@
 .place {
     width: 100%;
     margin: 0 auto;
+    margin-top: 80px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -11,22 +12,13 @@
     box-sizing: border-box;
 }
 
-.place:nth-of-type(2n) {
-	margin-top: 80px;
-}
-.place:nth-of-type(3n) {
-	margin-top: 80px;
-}
-.place:nth-of-type(4n) {
-	margin-top: 80px;
-}
-.place:nth-of-type(5n) {
-	margin-top: 80px;
+.place:first-of-type {
+	margin-top: 0;
 }
 
 @media screen and (max-width: 1120px) {
 	.place {
-        gap: 32px 48px;   
+        gap: 32px 48px;  
 	}
 }
 
@@ -35,7 +27,6 @@
         gap: 28px 48px;   
 	}
 }
-
 
 @media screen and (max-width: 540px) {
 	.place {

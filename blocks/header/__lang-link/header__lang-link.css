@@ -1,5 +1,23 @@
 .header__lang-link {
-   padding-right: 18px;
+   margin: 0 auto;
    color: #f2f2f2;
    text-decoration: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: right;
+   opacity: 1;
+   transition: transform  0.5s linear;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 540px) {
+	.header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+	}
 }

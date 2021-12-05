@@ -2,17 +2,17 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    padding-bottom: 92px;
-    
+    padding-bottom: 92px; 
 }
 
+@media screen and (max-width: 960px) {
+	.places {
+        padding-bottom: 90px;
+	}
+}
 
 @media screen and (max-width: 540px) {
 	.places {
-        max-width: 288px;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        padding-bottom: 68px;
+        padding-bottom: 66px;
 	}
 }
