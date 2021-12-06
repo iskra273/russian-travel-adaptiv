@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1120px) {
 	.place {
-        max-width: 720px;                    
+        max-width: 720px;             
         gap: 32px 48px;  
 	}
 }
@@ -33,10 +33,10 @@
 
 @media screen and (max-width: 540px) {
 	.place {
-        max-width: 320px; 
+        max-width: 320px;
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(1, auto);
-        gap: 32px 32px; 
+        gap: 32px 32px;
         margin-top: 50px;  
 	}
 }
