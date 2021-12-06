@@ -10,7 +10,7 @@
     transition: transform  0.5s linear;
 }
 
-.header__lang-link:hover {
+.header__link:hover {
   opacity: 0.8;
 }
 

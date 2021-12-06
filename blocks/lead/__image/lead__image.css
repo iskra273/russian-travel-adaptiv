@@ -2,14 +2,6 @@
     width: 100%;
     max-width: 984px;
     margin: 0 auto;
-    margin-top: 92px;
     padding: 0;
     object-fit: contain;
-}
-
-@media screen and (max-width: 540px) {
-	.lead__image {
-        min-height: 40px;
-        margin-top: 40px;
-	}
 }

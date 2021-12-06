@@ -10,3 +10,23 @@
     align-items: center;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1120px) {
+	.cover {
+        max-width: 1024px;
+        padding-left: 0;
+        padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.cover {
+        max-width: 768px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.cover {
+        max-width: 320px;
+	}
+}
