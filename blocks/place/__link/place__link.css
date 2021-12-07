@@ -10,14 +10,14 @@
     transition: transform  0.5s linear;
 }
 
-.header__link:hover {
+.place__link:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 540px) {
 	.place__link {
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
 	}
 }
