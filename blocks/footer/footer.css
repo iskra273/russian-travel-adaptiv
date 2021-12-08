@@ -25,9 +25,11 @@
     padding-right: 24px;
 	}
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 670px) {
 	.footer {
     padding-left: 16px;
     padding-right: 118px;
+    flex-direction: column;
+    text-align: left;
     }
 }
