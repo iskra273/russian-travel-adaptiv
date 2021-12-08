@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    padding-bottom: 64px;
+    padding-bottom: 92px;
     padding-left: 48px;
     padding-right: 48px;
     display: flex;
@@ -22,11 +22,13 @@
 @media screen and (max-width: 960px) {
 	.cover {
         max-width: 768px;
+        padding-bottom: 88px;
 	}
 }
 
 @media screen and (max-width: 540px) {
 	.cover {
         max-width: 320px;
+        padding-bottom: 64px;
 	}
 }
